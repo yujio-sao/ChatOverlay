@@ -1,0 +1,44 @@
+/**
+ * @name ChatOverlayFont
+ * @author yujio
+ * @authorLink https://github.com/yujio-sao
+ * @version 1.0.0
+ * @description Outline of text for ChatOverlay
+ * @source https://github.com/yujio-sao/ChatOverlay/
+ * @website https://github.com/yujio-sao
+ * @invite grP5SCVeZX
+*/
+
+/*Outline of messages in chat*/
+.messageContent_f9f2ca{
+	color: white;
+	text-shadow:
+	-1.25px -1.25px 0 #000,
+	0.25px -1.25px 0 #000,
+	1.25px -1.25px 0 #000,
+	1.25px  0.25px 0 #000,
+	1.25px  1.25px 0 #000,
+	0.25px  1.25px 0 #000,
+	-1.25px  1.25px 0 #000,
+	-1.25px  0.25px 0 #000;
+}
+
+/*Outline of usernames in chat*/
+.headerText_f9f2ca, .username_f9f2ca{
+	color: gray;
+	text-shadow:
+	-1.5px -1.5px 0 #000,
+	0.5px -1.5px 0 #000,
+	1.5px -1.5px 0 #000,
+	1.5px  0.5px 0 #000,
+	1.5px  1.5px 0 #000,
+	0.5px  1.5px 0 #000,
+	-1.5px  1.5px 0 #000,
+	-1.5px  0.5px 0 #000;
+}
+
+/*Removal of unnecunnecessary badges*/
+.replyBadge_f9f2ca, .newMemberBadge_ed263a, .divider_d5deea{
+	display: none;
+}
+
